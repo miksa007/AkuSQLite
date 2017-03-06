@@ -62,7 +62,6 @@ public class MainActivity extends ListActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
     // Will be called via the onClick attribute
